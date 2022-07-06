@@ -1,0 +1,5 @@
+#__dict__ = ('Plov' = p, 'Manty'= m, 'Kuurdak'= k, 'Lagman'= l)
+#print(__dict__)
+res = sorted ( dict.items(), (key = lambda x: x(1) )) 
+winner = res(-1)
+print(f' Победило блюдо: (winner(0)), оно набрало : (winner(1))')
